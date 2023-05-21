@@ -1,0 +1,20 @@
+#root{
+    text-align: center;
+    font-size: xx-large;
+    background-color: grey;
+    margin: 50px;
+}
+sub{
+
+    font-size: medium;
+}
+button{
+    margin: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #root,h1 {
+      background-color: rgb(247, 11, 11);
+    }
+  }
